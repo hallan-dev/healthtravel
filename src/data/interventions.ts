@@ -75,9 +75,9 @@ export const interventions: Intervention[] = [
       { q: 'La liposuccion VASER est-elle meilleure ?', a: 'Plus précise pour la sculpture et moins traumatisante pour les tissus, avec une meilleure rétraction cutanée.' },
       { q: 'Puis-je combiner avec un BBL ?', a: "Oui, c'est le combo le plus populaire : la graisse aspirée est purifiée puis réinjectée dans les fesses." }
     ],
-    prix: '2 500 € – 4 500 €',
-    prixInclus: 'Chirurgien, anesthésie, hospitalisation 1 nuit, médicaments, transferts, hôtel 3 nuits.',
-    sejour: '7 à 10 jours',
+    prix: 'Tarif sur devis personnalisé',
+    prixInclus: "Séjour médical postopératoire adapté à votre intervention et à votre état de santé. Le séjour est organisé dans un environnement médical afin d'assurer la surveillance, les soins et l'accompagnement nécessaires après l'intervention. La durée de prise en charge est déterminée après l'étude du dossier médical et selon les recommandations du chirurgien et de l'équipe médicale.",
+    sejour: 'Déterminé après étude médicale',
     duree: '1 à 3 heures'
   },
   {
@@ -134,9 +134,9 @@ export const interventions: Intervention[] = [
       { q: 'Le prix inclut-il la liposuccion ?', a: 'Oui, le BBL est un package complet : liposuccion des zones donneuses + purification + injection.' },
       { q: 'Que se passe-t-il si je perds du poids après ?', a: 'Une perte modérée n\'altère pas le résultat. Une perte massive peut réduire le volume des fesses.' }
     ],
-    prix: '3 500 € – 5 500 €',
-    prixInclus: 'Liposuccion complète, injection, chirurgien, anesthésie, 1 nuit clinique, coussin BBL, gaine, hôtel.',
-    sejour: '8 à 10 jours',
+    prix: 'Tarif sur devis personnalisé',
+    prixInclus: "Séjour médical postopératoire adapté à votre intervention et à votre état de santé. Le séjour est organisé dans un environnement médical afin d'assurer la surveillance, les soins et l'accompagnement nécessaires après l'intervention. La durée de prise en charge est déterminée après l'étude du dossier médical et selon les recommandations du chirurgien et de l'équipe médicale.",
+    sejour: 'Déterminé après étude médicale',
     duree: '2 à 3 heures'
   },
   {
@@ -194,9 +194,9 @@ export const interventions: Intervention[] = [
       { q: 'Quand puis-je reprendre le sport ?', a: 'Marche dès J+3, sport léger à 6 semaines, gainage et abdominaux à 3 mois.' },
       { q: 'La gaine est-elle obligatoire ?', a: 'Oui, 6 à 8 semaines, jour et nuit les 3 premières semaines.' }
     ],
-    prix: '3 000 € – 4 800 €',
-    prixInclus: 'Chirurgien, anesthésie, 2 nuits clinique, gaine, médicaments, transferts, hôtel 5 nuits.',
-    sejour: '10 à 12 jours',
+    prix: 'Tarif sur devis personnalisé',
+    prixInclus: "Séjour médical postopératoire adapté à votre intervention et à votre état de santé. Le séjour est organisé dans un environnement médical afin d'assurer la surveillance, les soins et l'accompagnement nécessaires après l'intervention. La durée de prise en charge est déterminée après l'étude du dossier médical et selon les recommandations du chirurgien et de l'équipe médicale.",
+    sejour: 'Déterminé après étude médicale',
     duree: '2 à 3 heures'
   },
   {
@@ -252,9 +252,9 @@ export const interventions: Intervention[] = [
       { q: 'Quel est le prix par rapport aux interventions séparées ?', a: 'Le package est 20 à 30 % moins cher que les mêmes interventions réalisées séparément.' },
       { q: 'Combien de temps d\'arrêt de travail ?', a: 'Comptez 3 à 4 semaines pour un travail de bureau, et organisez de l\'aide pour les enfants les 2 premières semaines.' }
     ],
-    prix: '5 500 € – 8 500 €',
-    prixInclus: 'Toutes les interventions combinées, chirurgien, anesthésie, 2 nuits clinique, gaines, hôtel 7 nuits.',
-    sejour: '12 jours',
+    prix: 'Tarif sur devis personnalisé',
+    prixInclus: "Séjour médical postopératoire adapté à votre intervention et à votre état de santé. Le séjour est organisé dans un environnement médical afin d'assurer la surveillance, les soins et l'accompagnement nécessaires après l'intervention. La durée de prise en charge est déterminée après l'étude du dossier médical et selon les recommandations du chirurgien et de l'équipe médicale.",
+    sejour: 'Déterminé après étude médicale',
     duree: '3 à 4 heures'
   },
   {
@@ -309,9 +309,9 @@ export const interventions: Intervention[] = [
       { q: 'Puis-je allaiter après ?', a: 'Oui, dans la grande majorité des cas, notamment avec une incision sous-mammaire.' },
       { q: 'Quand les prothèses doivent-elles être changées ?', a: 'Pas de date d\'expiration systématique : un changement n\'est envisagé qu\'en cas de problème détecté au suivi.' }
     ],
-    prix: '3 200 € – 4 500 €',
-    prixInclus: 'Prothèses Mentor/Motiva, chirurgien, anesthésie, 1 nuit clinique, soutien-gorge post-op, hôtel.',
-    sejour: '7 jours',
+    prix: 'Tarif sur devis personnalisé',
+    prixInclus: "Séjour médical postopératoire adapté à votre intervention et à votre état de santé. Le séjour est organisé dans un environnement médical afin d'assurer la surveillance, les soins et l'accompagnement nécessaires après l'intervention. La durée de prise en charge est déterminée après l'étude du dossier médical et selon les recommandations du chirurgien et de l'équipe médicale.",
+    sejour: 'Déterminé après étude médicale',
     duree: '1 à 1h30'
   },
   {
@@ -364,9 +364,9 @@ export const interventions: Intervention[] = [
       { q: 'Quel bonnet puis-je espérer ?', a: 'Le chirurgien vise la taille en harmonie avec votre morphologie — en général un bonnet B ou C.' },
       { q: 'La sensibilité du mamelon est-elle préservée ?', a: 'Dans la majorité des cas, oui. Une altération temporaire est possible et régresse en général en quelques mois.' }
     ],
-    prix: '3 000 € – 4 200 €',
-    prixInclus: 'Chirurgien, anesthésie, 1 nuit clinique, soutien-gorge post-op, médicaments, hôtel.',
-    sejour: '7 jours',
+    prix: 'Tarif sur devis personnalisé',
+    prixInclus: "Séjour médical postopératoire adapté à votre intervention et à votre état de santé. Le séjour est organisé dans un environnement médical afin d'assurer la surveillance, les soins et l'accompagnement nécessaires après l'intervention. La durée de prise en charge est déterminée après l'étude du dossier médical et selon les recommandations du chirurgien et de l'équipe médicale.",
+    sejour: 'Déterminé après étude médicale',
     duree: '2 à 3 heures'
   },
   {
@@ -418,9 +418,9 @@ export const interventions: Intervention[] = [
       { q: 'Puis-je allaiter après ?', a: 'Souvent oui, mais cela dépend de la technique. À discuter avec le chirurgien si vous envisagez une grossesse.' },
       { q: 'Le résultat dure-t-il ?', a: 'Oui, de nombreuses années. La gravité et les variations de poids continuent d\'agir : un bon soutien et un poids stable prolongent le résultat.' }
     ],
-    prix: '3 000 € – 4 500 €',
-    prixInclus: 'Chirurgien, anesthésie, 1 nuit clinique, prothèses si associées, soutien-gorge, hôtel.',
-    sejour: '7 jours',
+    prix: 'Tarif sur devis personnalisé',
+    prixInclus: "Séjour médical postopératoire adapté à votre intervention et à votre état de santé. Le séjour est organisé dans un environnement médical afin d'assurer la surveillance, les soins et l'accompagnement nécessaires après l'intervention. La durée de prise en charge est déterminée après l'étude du dossier médical et selon les recommandations du chirurgien et de l'équipe médicale.",
+    sejour: 'Déterminé après étude médicale',
     duree: '1h30 à 2h30'
   },
   {
@@ -470,13 +470,13 @@ export const interventions: Intervention[] = [
     faq: [
       { q: 'Technique ouverte ou fermée ?', a: 'Fermée pour les corrections modérées (aucune cicatrice visible) ; ouverte pour les cas complexes ou de révision (micro-cicatrice invisible à 3 mois).' },
       { q: 'La rhinoplastie peut-elle améliorer ma respiration ?', a: 'Oui, la rhinoplastie fonctionnelle corrige la déviation de cloison et les cornets hypertrophiques.' },
-      { q: 'Quel est le prix d\'une rhinoplastie en Tunisie ?', a: 'Entre 2 200 € et 3 500 € selon la complexité (première intervention ou révision).' },
+      { q: 'Quel est le tarif d\'une rhinoplastie en Tunisie ?', a: 'Le tarif est établi sur devis personnalisé, après étude de votre dossier médical et consultation avec le chirurgien. Il dépend de la complexité (première intervention ou révision, technique ouverte ou fermée).' },
       { q: 'Peut-on me donner le nez d\'une célébrité ?', a: 'Non. Le chirurgien sculpte VOTRE nez en respectant votre anatomie. L\'objectif est l\'harmonie avec vos traits, pas la copie.' },
       { q: 'Quand verrai-je le résultat final ?', a: 'Le nez s\'affine pendant 12 à 18 mois, le temps que l\'œdème de la pointe se résorbe complètement.' }
     ],
-    prix: '2 200 € – 3 500 €',
-    prixInclus: 'Chirurgien, anesthésie, 1 nuit clinique, attelle, consultation de contrôle, hôtel 5 nuits.',
-    sejour: '5 à 7 jours',
+    prix: 'Tarif sur devis personnalisé',
+    prixInclus: "Séjour médical postopératoire adapté à votre intervention et à votre état de santé. Le séjour est organisé dans un environnement médical afin d'assurer la surveillance, les soins et l'accompagnement nécessaires après l'intervention. La durée de prise en charge est déterminée après l'étude du dossier médical et selon les recommandations du chirurgien et de l'équipe médicale.",
+    sejour: 'Déterminé après étude médicale',
     duree: '1h30 à 2h30'
   },
   {
@@ -488,7 +488,7 @@ export const interventions: Intervention[] = [
     metaDesc: 'Blépharoplastie en Tunisie : paupières rajeunies, regard reposé. Intervention rapide, récupération courte. Devis 24h.',
     description: [
       "La blépharoplastie rajeunit le regard en corrigeant les paupières supérieures tombantes (excès de peau) et les poches sous les yeux (hernie graisseuse). Le regard paraît plus ouvert, reposé et rafraîchi — sans changer votre expression.",
-      "C'est une intervention légère, souvent réalisée sous anesthésie locale avec sédation, en ambulatoire : vous retournez à l'hôtel le jour même. Les incisions sont dissimulées dans le pli naturel de la paupière et à l'intérieur pour les poches (voie transconjonctivale, sans aucune cicatrice visible)."
+      "C'est une intervention légère, souvent réalisée sous anesthésie locale avec sédation, en ambulatoire : vous repartez le jour même en environnement adapté à votre récupération. Les incisions sont dissimulées dans le pli naturel de la paupière et à l'intérieur pour les poches (voie transconjonctivale, sans aucune cicatrice visible)."
     ],
     indications: [
       'Paupières supérieures lourdes ou tombantes',
@@ -508,7 +508,7 @@ export const interventions: Intervention[] = [
       { t: 'Anesthésie', d: 'Locale + sédation, ou générale selon votre préférence.' },
       { t: 'Correction', d: 'Retrait de l\'excès de peau et/ou des poches graisseuses. Durée : 1 heure.' },
       { t: 'Fermeture', d: 'Sutures très fines dans le pli naturel.' },
-      { t: 'Retour hôtel', d: 'Sortie le jour même avec compresses froides et consignes.' }
+      { t: 'Retour', d: 'Sortie le jour même avec compresses froides et consignes, en environnement adapté à votre récupération.' }
     ],
     suites: [
       { phase: 'J1 – J5', desc: 'Œdèmes et ecchymoses légers. Compresses froides. Pas d\'effort.' },
@@ -529,9 +529,9 @@ export const interventions: Intervention[] = [
       { q: 'Puis-je porter mes lentilles ?', a: 'Après 10 à 15 jours. Lunettes de vue conseillées entre-temps.' },
       { q: 'Combien de temps dure le résultat ?', a: '10 à 15 ans en moyenne, souvent définitif pour les poches.' }
     ],
-    prix: '1 800 € – 2 800 €',
-    prixInclus: 'Chirurgien, anesthésie, ambulatoire, médicaments, contrôle, hôtel 4 nuits.',
-    sejour: '5 jours',
+    prix: 'Tarif sur devis personnalisé',
+    prixInclus: "Séjour médical postopératoire adapté à votre intervention et à votre état de santé. Le séjour est organisé dans un environnement médical afin d'assurer la surveillance, les soins et l'accompagnement nécessaires après l'intervention. La durée de prise en charge est déterminée après l'étude du dossier médical et selon les recommandations du chirurgien et de l'équipe médicale.",
+    sejour: 'Déterminé après étude médicale',
     duree: '1 heure'
   },
   {
@@ -585,9 +585,9 @@ export const interventions: Intervention[] = [
       { q: 'Combien de temps dure le résultat ?', a: '10 ans et plus. Le vieillissement reprend son cours naturel, mais vous gardez une longueur d\'avance.' },
       { q: 'Peut-on combiner avec une blépharoplastie ?', a: 'Oui, c\'est même fréquent pour un rajeunissement global en une seule intervention.' }
     ],
-    prix: '3 500 € – 5 500 €',
-    prixInclus: 'Chirurgien, anesthésie, 1 nuit clinique, pansements, contrôles, hôtel 7 nuits.',
-    sejour: '8 à 10 jours',
+    prix: 'Tarif sur devis personnalisé',
+    prixInclus: "Séjour médical postopératoire adapté à votre intervention et à votre état de santé. Le séjour est organisé dans un environnement médical afin d'assurer la surveillance, les soins et l'accompagnement nécessaires après l'intervention. La durée de prise en charge est déterminée après l'étude du dossier médical et selon les recommandations du chirurgien et de l'équipe médicale.",
+    sejour: 'Déterminé après étude médicale',
     duree: '3 à 4 heures'
   },
   {
@@ -637,9 +637,9 @@ export const interventions: Intervention[] = [
       { q: 'Peut-on éviter la cicatrice ?', a: 'Pour un excès cutané modéré, une liposuccion seule ou un bodytite peut suffire. Le chirurgien évalue en consultation.' },
       { q: 'Quand reprendre le sport ?', a: 'Marche immédiate, sport du haut du corps à 6 semaines.' }
     ],
-    prix: '2 800 € – 3 800 €',
-    prixInclus: 'Chirurgien, anesthésie, 1 nuit clinique, manchons, médicaments, hôtel.',
-    sejour: '7 jours',
+    prix: 'Tarif sur devis personnalisé',
+    prixInclus: "Séjour médical postopératoire adapté à votre intervention et à votre état de santé. Le séjour est organisé dans un environnement médical afin d'assurer la surveillance, les soins et l'accompagnement nécessaires après l'intervention. La durée de prise en charge est déterminée après l'étude du dossier médical et selon les recommandations du chirurgien et de l'équipe médicale.",
+    sejour: 'Déterminé après étude médicale',
     duree: '1h30 à 2 heures'
   },
   {
@@ -689,9 +689,9 @@ export const interventions: Intervention[] = [
       { q: 'Peut-on combiner avec une abdominoplastie ?', a: 'Oui, c\'est fréquent dans les protocoles post-amaigrissement massif.' },
       { q: 'Quand reprendre la marche sportive ?', a: 'Marche douce immédiate, marche sportive à 4 semaines, course à 8 semaines.' }
     ],
-    prix: '3 000 € – 4 200 €',
-    prixInclus: 'Chirurgien, anesthésie, 1 nuit clinique, contention, médicaments, hôtel.',
-    sejour: '8 jours',
+    prix: 'Tarif sur devis personnalisé',
+    prixInclus: "Séjour médical postopératoire adapté à votre intervention et à votre état de santé. Le séjour est organisé dans un environnement médical afin d'assurer la surveillance, les soins et l'accompagnement nécessaires après l'intervention. La durée de prise en charge est déterminée après l'étude du dossier médical et selon les recommandations du chirurgien et de l'équipe médicale.",
+    sejour: 'Déterminé après étude médicale',
     duree: '2 à 2h30'
   },
   {
@@ -742,9 +742,9 @@ export const interventions: Intervention[] = [
       { q: 'La maladie revient-elle après l\'opération ?', a: 'La graisse pathologique retirée ne revient pas. La contention et le suivi limitent tout risque de progression.' },
       { q: 'Est-ce remboursé ?', a: 'Certaines mutuelles prennent en charge le traitement du lipœdème diagnostiqué. Nous fournissons un dossier médical complet.' }
     ],
-    prix: 'Sur devis',
-    prixInclus: 'Selon le nombre de zones et de séances : chirurgien, anesthésie, contention, drainages, hôtel.',
-    sejour: '7 à 10 jours par séance',
+    prix: 'Tarif sur devis personnalisé',
+    prixInclus: "Séjour médical postopératoire adapté à votre intervention et à votre état de santé. Le séjour est organisé dans un environnement médical afin d'assurer la surveillance, les soins et l'accompagnement nécessaires après l'intervention. La durée de prise en charge est déterminée après l'étude du dossier médical et selon les recommandations du chirurgien et de l'équipe médicale.",
+    sejour: 'Déterminé après étude médicale',
     duree: '1h30 à 3 heures'
   },
   {
@@ -797,9 +797,9 @@ export const interventions: Intervention[] = [
       { q: 'FUE ou DHI ?', a: 'La DHI offre une implantation plus dense et contrôlée ; la FUE convient aux grandes surfaces. Le choix dépend de votre cas.' },
       { q: 'Les cheveux greffés retombent-ils ?', a: 'Non : les follicules de la couronne sont génétiquement résistants à la chute, pour toute la vie.' }
     ],
-    prix: '1 800 € – 3 000 €',
-    prixInclus: 'Équipe complète, anesthésie locale, kit post-op, séances de contrôle, hôtel 3 nuits.',
-    sejour: '3 à 5 jours',
+    prix: 'Tarif sur devis personnalisé',
+    prixInclus: "Séjour médical postopératoire adapté à votre intervention et à votre état de santé. Le séjour est organisé dans un environnement médical afin d'assurer la surveillance, les soins et l'accompagnement nécessaires après l'intervention. La durée de prise en charge est déterminée après l'étude du dossier médical et selon les recommandations du chirurgien et de l'équipe médicale.",
+    sejour: 'Déterminé après étude médicale',
     duree: '5 à 7 heures'
   },
   {
@@ -830,7 +830,7 @@ export const interventions: Intervention[] = [
       { t: 'Anesthésie', d: 'Locale + sédation ou générale selon l\'intervention.' },
       { t: 'Intervention', d: 'Technique précise et conservative, 45 min à 1h30 selon le cas.' },
       { t: 'Fermeture', d: 'Fils résorbables, aucune cicatrice visible.' },
-      { t: 'Sortie', d: 'Retour à l\'hôtel le jour même ou après 1 nuit.' }
+      { t: 'Sortie', d: 'Retour le jour même ou après une nuit de surveillance, selon l\'avis de l\'équipe médicale.' }
     ],
     suites: [
       { phase: 'J1 – J7', desc: 'Soins locaux doux, repos, pas de bain ni de sport.' },
@@ -850,9 +850,9 @@ export const interventions: Intervention[] = [
       { q: 'La sensibilité est-elle préservée ?', a: 'Oui, les techniques conservatives préservent les zones de sensibilité. Le chirurgien vous explique tout en consultation.' },
       { q: 'Quand reprendre une vie intime ?', a: 'Généralement après 4 à 6 semaines, selon la consigne du chirurgien.' }
     ],
-    prix: '1 500 € – 3 000 €',
-    prixInclus: 'Chirurgien, anesthésie, ambulatoire ou 1 nuit, médicaments, suivi, hôtel.',
-    sejour: '5 jours',
+    prix: 'Tarif sur devis personnalisé',
+    prixInclus: "Séjour médical postopératoire adapté à votre intervention et à votre état de santé. Le séjour est organisé dans un environnement médical afin d'assurer la surveillance, les soins et l'accompagnement nécessaires après l'intervention. La durée de prise en charge est déterminée après l'étude du dossier médical et selon les recommandations du chirurgien et de l'équipe médicale.",
+    sejour: 'Déterminé après étude médicale',
     duree: '45 min à 1h30'
   }
 ];
@@ -890,9 +890,9 @@ const nouvellesInterventions: Intervention[] = [
       { q: 'Quel suivi après le retour ?', a: 'Suivi nutritionnel vidéo pendant 12 mois, bilans sanguins à 3, 6 et 12 mois, coordination avec votre médecin traitant.' },
       { q: 'Sleeve ou bypass ?', a: 'La sleeve est plus simple et suffit dans la majorité des cas. Le bypass est préféré en cas de reflux sévère ou de diabète très avancé. Le chirurgien décide avec vous.' }
     ],
-    prix: '4 500 € – 6 000 €',
-    prixInclus: 'Bilans, chirurgien bariatrique, anesthésie, 2 nuits clinique, suivi nutritionnel 12 mois, hôtel.',
-    sejour: '7 jours',
+    prix: 'Tarif sur devis personnalisé',
+    prixInclus: "Séjour médical postopératoire adapté à votre intervention et à votre état de santé. Le séjour est organisé dans un environnement médical afin d'assurer la surveillance, les soins et l'accompagnement nécessaires après l'intervention. La durée de prise en charge est déterminée après l'étude du dossier médical et selon les recommandations du chirurgien et de l'équipe médicale.",
+    sejour: 'Déterminé après étude médicale',
     duree: '1h à 1h30'
   },
   {
@@ -926,9 +926,9 @@ const nouvellesInterventions: Intervention[] = [
       { q: 'Quelles vitamines dois-je prendre ?', a: 'Multivitamines, B12, fer, calcium et vitamine D — à vie, avec bilans sanguins réguliers. Notre nutritionniste vous suit 12 mois.' },
       { q: 'Qu\'est-ce que le dumping syndrome ?', a: 'Malaise après sucres rapides (sueurs, vertiges). Il est évitable en respectant les règles alimentaires — et aide à changer les habitudes.' }
     ],
-    prix: '5 000 € – 6 500 €',
-    prixInclus: 'Bilans, chirurgien bariatrique, anesthésie, 2-3 nuits clinique, suivi nutritionnel 12 mois, hôtel.',
-    sejour: '8 jours',
+    prix: 'Tarif sur devis personnalisé',
+    prixInclus: "Séjour médical postopératoire adapté à votre intervention et à votre état de santé. Le séjour est organisé dans un environnement médical afin d'assurer la surveillance, les soins et l'accompagnement nécessaires après l'intervention. La durée de prise en charge est déterminée après l'étude du dossier médical et selon les recommandations du chirurgien et de l'équipe médicale.",
+    sejour: 'Déterminé après étude médicale',
     duree: '2h à 2h30'
   },
   {
@@ -962,9 +962,9 @@ const nouvellesInterventions: Intervention[] = [
       { q: 'Où passe la cicatrice ?', a: 'Tout autour de la taille, dissimulée sous les sous-vêtements. Elle s\'estompe en 12-18 mois.' },
       { q: 'Peut-on combiner avec un lifting des cuisses ?', a: 'Parfois, mais souvent en deux temps pour limiter la durée opératoire. Le chirurgien planifie le programme complet.' }
     ],
-    prix: '4 500 € – 7 000 €',
-    prixInclus: 'Chirurgien, anesthésie, 2 nuits clinique, drains, gaines, suivi, hôtel 7 nuits.',
-    sejour: '12 jours',
+    prix: 'Tarif sur devis personnalisé',
+    prixInclus: "Séjour médical postopératoire adapté à votre intervention et à votre état de santé. Le séjour est organisé dans un environnement médical afin d'assurer la surveillance, les soins et l'accompagnement nécessaires après l'intervention. La durée de prise en charge est déterminée après l'étude du dossier médical et selon les recommandations du chirurgien et de l'équipe médicale.",
+    sejour: 'Déterminé après étude médicale',
     duree: '3 à 5 heures'
   },
   {
@@ -984,7 +984,7 @@ const nouvellesInterventions: Intervention[] = [
       { t: 'Consultation privée', d: 'Examen confidentiel, explication de la technique conservative.' },
       { t: 'Anesthésie', d: 'Locale + sédation ou générale, 45 min à 1h.' },
       { t: 'Correction', d: 'Résection précise et conservative, fils résorbables.' },
-      { t: 'Sortie', d: 'Retour à l\'hôtel le jour même.' }
+      { t: 'Sortie', d: 'Retour le jour même, selon l\'avis de l\'équipe médicale.' }
     ],
     suites: [
       { phase: 'J1 – J7', desc: 'Soins locaux doux, repos, pas de bain ni de sport.' },
@@ -997,9 +997,9 @@ const nouvellesInterventions: Intervention[] = [
       { q: 'Puis-je avoir une équipe féminine ?', a: 'Oui, sur simple demande : chirurgienne, anesthésiste et accompagnatrice.' },
       { q: 'Quand reprendre une vie intime ?', a: 'Après 4 à 6 semaines, selon la consigne du chirurgien.' }
     ],
-    prix: '1 800 € – 2 500 €',
-    prixInclus: 'Chirurgien, anesthésie, ambulatoire, médicaments, suivi, hôtel.',
-    sejour: '5 jours',
+    prix: 'Tarif sur devis personnalisé',
+    prixInclus: "Séjour médical postopératoire adapté à votre intervention et à votre état de santé. Le séjour est organisé dans un environnement médical afin d'assurer la surveillance, les soins et l'accompagnement nécessaires après l'intervention. La durée de prise en charge est déterminée après l'étude du dossier médical et selon les recommandations du chirurgien et de l'équipe médicale.",
+    sejour: 'Déterminé après étude médicale',
     duree: '45 min à 1h'
   },
   {
@@ -1032,9 +1032,9 @@ const nouvellesInterventions: Intervention[] = [
       { q: 'La pose est-elle douloureuse ?', a: 'Non, sous anesthésie locale c\'est indolore — souvent plus simple qu\'une extraction.' },
       { q: 'Quelles marques d\'implants utilisez-vous ?', a: 'Des marques internationales premium reconnues. Le devis précise la marque exacte et la garantie.' }
     ],
-    prix: '600 € – 900 € / implant',
-    prixInclus: 'Bilan 3D, implant premium, abutment, suivi. Couronne en supplément selon le matériau.',
-    sejour: '5 jours (par étape)',
+    prix: 'Tarif sur devis personnalisé',
+    prixInclus: "Séjour médical postopératoire adapté à votre intervention et à votre état de santé. Le séjour est organisé dans un environnement médical afin d'assurer la surveillance, les soins et l'accompagnement nécessaires après l'intervention. La durée de prise en charge est déterminée après l'étude du dossier médical et selon les recommandations du chirurgien et de l'équipe médicale.",
+    sejour: 'Déterminé après étude médicale',
     duree: '30-60 min / implant'
   },
   {
@@ -1043,10 +1043,10 @@ const nouvellesInterventions: Intervention[] = [
     category: 'Dentaire',
     tagline: 'Sourire hollywoodien en une semaine : facettes céramique ou composite, teinte et forme sur mesure.',
     metaTitle: 'Facettes dentaires Tunisie — Hollywood smile prix | Health Travel',
-    metaDesc: 'Facettes dentaires en Tunisie : céramique E-Max, sourire hollywoodien sur mesure en 5-7 jours. Devis gratuit sous 24h.',
+    metaDesc: 'Facettes dentaires en Tunisie : céramique E-Max, sourire hollywoodien sur mesure. Devis gratuit sous 24h.',
     description: [
       "Les facettes dentaires sont de fines coques de céramique collées sur la face visible des dents pour corriger couleur, forme, alignement et espaces. C'est l'intervention préférée des célébrités — dont Fanny J, qui a choisi Health Travel pour les siennes.",
-      "Nos laboratoires partenaires travaillent la céramique E-Max (référence esthétique) avec un smile design numérique : vous visualisez votre futur sourire avant même de commencer. En 5 à 7 jours sur place, votre nouveau sourire est posé."
+      "Nos laboratoires partenaires travaillent la céramique E-Max (référence esthétique) avec un smile design numérique : vous visualisez votre futur sourire avant même de commencer. La durée de votre séjour est définie selon votre plan de traitement, après étude de votre dossier."
     ],
     indications: ['Dents tachées, usées ou ébréchées', 'Espaces entre les dents (diastèmes)', 'Légers défauts d\'alignement ou de forme', 'Sourire harmonieux souhaité rapidement'],
     contreIndications: ['Bruxisme sévère non traité', 'Émail insuffisant', 'Malocclusion majeure (orthodontie d\'abord)', 'Hygiène buccale insuffisante'],
@@ -1067,9 +1067,9 @@ const nouvellesInterventions: Intervention[] = [
       { q: 'Combien de dents faut-il traiter ?', a: 'En général 8 à 10 dents par mâchoire (zone du sourire). Le smile design détermine le nombre exact.' },
       { q: 'Les facettes abîment-elles les dents ?', a: 'La préparation est minimale (0,3-0,5 mm). Les facettes sans préparation sont possibles selon les cas.' }
     ],
-    prix: '250 € – 400 € / dent',
-    prixInclus: 'Smile design 3D, préparation, provisoires, céramique E-Max, pose, contrôle final.',
-    sejour: '5 à 7 jours',
+    prix: 'Tarif sur devis personnalisé',
+    prixInclus: "Séjour médical postopératoire adapté à votre intervention et à votre état de santé. Le séjour est organisé dans un environnement médical afin d'assurer la surveillance, les soins et l'accompagnement nécessaires après l'intervention. La durée de prise en charge est déterminée après l'étude du dossier médical et selon les recommandations du chirurgien et de l'équipe médicale.",
+    sejour: 'Déterminé après étude médicale',
     duree: '2 à 3 séances'
   },
   {
@@ -1098,13 +1098,13 @@ const nouvellesInterventions: Intervention[] = [
     ],
     resultats: ['Taux de grossesse par transfert jusqu\'à 45-50 % selon l\'âge', 'Laboratoires de dernière génération', 'Vitrification des embryons surnuméraires', 'Coût 40-60 % inférieur à l\'Europe'],
     faq: [
-      { q: 'Combien de temps dure le séjour ?', a: 'Comptez 15 à 20 jours pour un cycle complet sur place. Une partie de la stimulation peut être suivie dans votre pays.' },
+      { q: 'Combien de temps dure le séjour ?', a: 'La durée du séjour est déterminée selon votre protocole de traitement et votre situation médicale, après étude de votre dossier. Une partie de la stimulation peut être suivie dans votre pays.' },
       { q: 'Quels sont les taux de réussite ?', a: 'Jusqu\'à 45-50 % par transfert avant 35 ans, décroissant avec l\'âge. Le médecin vous donne votre pronostic personnalisé.' },
       { q: 'ICSI ou FIV classique ?', a: 'L\'ICSI (injection directe du spermatozoïde) est recommandée en cas de facteur masculin. Le laboratoire décide selon les résultats.' }
     ],
-    prix: 'Sur devis',
-    prixInclus: 'Bilans, stimulation, ponction, laboratoire, transfert, médicaments de soutien, suivi.',
-    sejour: '15 à 20 jours',
+    prix: 'Tarif sur devis personnalisé',
+    prixInclus: "Séjour médical postopératoire adapté à votre intervention et à votre état de santé. Le séjour est organisé dans un environnement médical afin d'assurer la surveillance, les soins et l'accompagnement nécessaires après l'intervention. La durée de prise en charge est déterminée après l'étude du dossier médical et selon les recommandations du chirurgien et de l'équipe médicale.",
+    sejour: 'Déterminé après étude médicale',
     duree: '1 cycle (3-4 semaines)'
   },
   {
@@ -1137,9 +1137,9 @@ const nouvellesInterventions: Intervention[] = [
       { q: 'Combien de temps ça dure ?', a: 'Botox : 4 à 6 mois. Acide hyaluronique : 9 à 12 mois selon la zone.' },
       { q: 'Peut-on combiner avec une chirurgie ?', a: 'Oui, souvent pendant le même séjour, en respectant les délais conseillés par le chirurgien.' }
     ],
-    prix: '180 € – 400 € / zone',
-    prixInclus: 'Produit premium (Allergan/Juvederm), médecin esthétique, retouche à 15 jours.',
-    sejour: 'Séjour libre',
+    prix: 'Tarif sur devis personnalisé',
+    prixInclus: "Séjour médical postopératoire adapté à votre intervention et à votre état de santé. Le séjour est organisé dans un environnement médical afin d'assurer la surveillance, les soins et l'accompagnement nécessaires après l'intervention. La durée de prise en charge est déterminée après l'étude du dossier médical et selon les recommandations du chirurgien et de l'équipe médicale.",
+    sejour: 'Déterminé après étude médicale',
     duree: '20-30 minutes'
   }
 ];
