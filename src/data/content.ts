@@ -33,19 +33,19 @@ export const whyCards = [
   { icon: 'Stethoscope', title: 'Suivi post-opératoire illimité', text: 'Consultations vidéo à J+7, J+30, J+90 et au-delà. Coordination avec votre médecin en France, Belgique, Suisse ou Canada.' },
   { icon: 'Languages', title: 'Service multilingue', text: 'Français, anglais, arabe, allemand et italien. Aucune barrière linguistique. Traduction des documents médicaux incluse.' },
   { icon: 'Receipt', title: 'Transparence totale des prix', text: 'Devis détaillé sans surprise : intervention, anesthésie, hospitalisation, médicaments, transferts et hébergement. Aucun frais caché.' },
-  { icon: 'Plane', title: 'Organisation complète du séjour', text: 'Billet d\'avion, transferts, hôtel 4 étoiles avec accompagnatrice, visites touristiques pendant la convalescence. Vous n\'avez qu\'à vous concentrer sur vous.' }
+  { icon: 'Plane', title: 'Organisation complète du séjour', text: 'Séjour médical organisé de A à Z : vol, transferts privés, hébergement adapté à votre récupération et accompagnatrice dédiée. Vous n\'avez qu\'à vous concentrer sur vous.' }
 ];
 
 export const parcours = [
-  { n: 1, t: 'Demande de devis', d: 'Formulaire en ligne ou message WhatsApp. Réponse personnalisée sous 24 heures avec fourchette de prix et informations détaillées.' },
+  { n: 1, t: 'Demande de devis', d: 'Formulaire en ligne ou message WhatsApp. Réponse personnalisée sous 24 heures avec informations détaillées, puis devis sur mesure après étude de votre dossier.' },
   { n: 2, t: 'Consultation vidéo', d: 'Échange en direct avec le chirurgien. Analyse de vos photos, réponses à vos questions, plan chirurgical personnalisé.' },
   { n: 3, t: 'Validation du dossier', d: 'Devis signé, analyses médicales demandées (bilan sanguin, ECG), réservation de la date d\'intervention.' },
-  { n: 4, t: 'Préparation du séjour', d: 'Réservation de votre vol, hôtel 4 étoiles avec accompagnatrice, transferts. Check-list de préparation envoyée.' },
-  { n: 5, t: 'Voyage', d: 'Départ pour la Tunisie. Accueil à l\'aéroport par notre équipe. Installation à l\'hôtel ou à la clinique.' },
+  { n: 4, t: 'Préparation du séjour', d: 'Organisation de votre séjour médical : vol, transferts, hébergement adapté à votre récupération. Check-list de préparation envoyée.' },
+  { n: 5, t: 'Voyage', d: 'Départ pour la Tunisie. Accueil à l\'aéroport par notre équipe. Installation dans un environnement adapté à votre prise en charge.' },
   { n: 6, t: 'Accueil & consultations', d: 'Visite de la clinique, rencontre avec l\'anesthésiste, dernières vérifications. Vous êtes entre de bonnes mains.' },
   { n: 7, t: 'Chirurgie', d: 'Intervention réalisée par votre chirurgien dans un bloc opératoire stérilisé, selon le protocole validé.' },
   { n: 8, t: 'Hospitalisation', d: 'Surveillance 24/7 par une équipe médicale dédiée. Chambre privée climatisée, soins infirmiers.' },
-  { n: 9, t: 'Convalescence', d: 'Repos à l\'hôtel avec accompagnatrice. Soins, contrôles médicaux, visite de Sidi Bou Saïd si vous le souhaitez.' },
+  { n: 9, t: 'Convalescence', d: 'Repos et surveillance dans un environnement médical adapté. Soins, contrôles médicaux et accompagnement personnalisé.' },
   { n: 10, t: 'Retour', d: 'Autorisation de vol par le chirurgien. Kit post-opération complet. Coordination avec votre médecin traitant.' },
   { n: 11, t: 'Suivi', d: 'Consultations vidéo à J+7, J+30, J+90. Réponses WhatsApp illimitées. Votre dossier reste ouvert aussi longtemps que nécessaire.' }
 ];
@@ -53,7 +53,7 @@ export const parcours = [
 export const temoignages = [
   { name: 'Sarah M.', country: 'France', intervention: 'Liposuccion + BBL', text: 'L\'accompagnement a été impeccable du début à la fin. Hallan et son équipe sont toujours disponibles, même à 23h quand j\'avais une question sur mes pansements. Résultat naturel et au-delà de mes espérances. Je recommande à 300 %.' },
   { name: 'Amira K.', country: 'Belgique', intervention: 'Rhinoplastie', text: 'La rhinoplastie que j\'attendais depuis 10 ans. Le chirurgien a compris exactement ce que je voulais : un nez naturel, pas un nez de poupée. Le suivi post-op par vidéo depuis Bruxelles est rassurant.' },
-  { name: 'Laura D.', country: 'Allemagne', intervention: 'Mommy Makeover', text: 'Mommy Makeover après mes 3 grossesses. Je ne pensais pas retrouver cette silhouette. L\'équipe parle allemand, ce qui m\'a beaucoup rassurée. L\'hôtel était magnifique, l\'accompagnatrice adorable.' },
+  { name: 'Laura D.', country: 'Allemagne', intervention: 'Mommy Makeover', text: 'Mommy Makeover après mes 3 grossesses. Je ne pensais pas retrouver cette silhouette. L\'équipe parle allemand, ce qui m\'a beaucoup rassurée. L\'accompagnement post-opératoire était remarquable, l\'accompagnatrice adorable.' },
   { name: 'Fatima B.', country: 'Suisse', intervention: 'Greffe capillaire FUE', text: '4 500 greffons, résultat incroyable à 8 mois. Transparence totale sur les prix, aucune surprise. Réponse WhatsApp en 30 minutes maximum.' }
 ];
 
@@ -156,7 +156,7 @@ export const engagements = [
 export const qualite = {
   groupes: [
     { t: 'Qualité médicale', items: ['Médecins expérimentés', 'Cliniques certifiées', 'Résultats esthétiques naturels', 'Normes de sécurité élevées'] },
-    { t: 'Organisation & logistique', items: ['Séjour organisé de A à Z', 'Transferts privés inclus', 'Hôtel 4 étoiles minimum', 'Accompagnatrice dédiée'] },
+    { t: 'Organisation & logistique', items: ['Séjour médical organisé de A à Z', 'Transferts privés inclus', 'Hébergement adapté à la récupération', 'Accompagnatrice dédiée'] },
     { t: 'Accompagnement humain', items: ['Consultations personnalisées', 'Suivi médical complet', 'Soins post-opératoires inclus', 'Confidentialité assurée'] }
   ]
 };
