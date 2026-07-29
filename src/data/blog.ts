@@ -26,7 +26,7 @@ export const articles: Article[] = [
         ['Sessions', '1', '2-4'],
         ['Convalescence', '1-2 semaines', 'Aucune'],
         ['Cicatrices', 'Minuscules (2-4 mm)', 'Aucune'],
-        ['Prix Tunisie', '2 500-4 500 €', '200-400 €/zone/session'],
+        ['Tarif', 'Sur devis personnalisé', 'Par session, selon la zone'],
         ['Effet définitif', 'Oui', 'Oui (si poids stable)']
       ] } },
       { h2: 'Notre recommandation', list: ['Choisissez la liposuccion si vous avez plusieurs zones à traiter, si vous voulez un résultat immédiat et significatif, ou si vous envisagez un BBL.', 'Choisissez la cryolipolyse si vous avez une petite zone rebelle, si vous refusez absolument la chirurgie, ou si vous ne pouvez pas vous permettre de temps d\'arrêt.'] },
@@ -100,12 +100,12 @@ export const articles: Article[] = [
       { h2: 'Pourquoi choisir la Tunisie ?', list: ['Qualité médicale : chirurgiens formés en Europe et aux USA, cliniques certifiées ISO/JCI', 'Prix compétitifs : 60 à 70 % moins cher qu\'en France ou en Suisse, sans compromis qualité', 'Proximité géographique : 2h30 de vol depuis Paris, même fuseau horaire', 'Tourisme : convalescence dans un cadre ensoleillé, plages, culture', 'Langue : français parlé couramment, aucune barrière'] },
       { h2: 'Les formalités', list: ['Passeport valide 6 mois minimum', 'Aucun visa pour les ressortissants européens (séjour < 90 jours)', 'Assurance voyage recommandée (nous proposons des partenariats)', 'Bilan médical à jour'] },
       { h2: 'La sécurité', list: ['Zones sécurisées : Tunis, Sousse, Hammamet', 'Transferts organisés porte à porte', 'Accompagnatrice dédiée pendant tout le séjour', 'Cliniques avec service d\'urgence 24/7'] },
-      { h2: 'Le coût total d\'un séjour', table: { head: ['Élément', 'Prix indicatif'], rows: [
-        ['Vol A/R Paris-Tunis', '150-400 €'],
-        ['Hôtel 4★ (7 nuits)', '350-700 €'],
-        ['Transferts', 'Inclus dans le package'],
-        ['Intervention + séjour', 'Selon le devis'],
-        ['Total estimé', '40-60 % moins cher qu\'en Europe']
+      { h2: 'Le coût total d\'un séjour', table: { head: ['Élément', 'Organisation'], rows: [
+        ['Vol A/R', 'Selon votre ville de départ'],
+        ['Séjour médical postopératoire', 'Adapté à votre intervention et à votre état de santé'],
+        ['Transferts privés', 'Inclus dans l\'organisation'],
+        ['Intervention + prise en charge', 'Sur devis personnalisé'],
+        ['Durée du séjour', 'Déterminée après étude du dossier médical']
       ] } }
     ],
     conclusion: 'La Tunisie offre aujourd\'hui un rapport qualité-prix inégalé en tourisme médical. Avec un accompagnement professionnel comme Health Travel, votre sécurité et votre confort sont garantis.'
