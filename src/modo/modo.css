@@ -1,0 +1,88 @@
+/* ===== Styles du template dynamique Modo — scopés sous .modo-scope ===== */
+
+.modo-scope {
+  font-family: 'Inter', sans-serif;
+  cursor: none;
+}
+.modo-scope a,
+.modo-scope button {
+  cursor: none;
+  text-decoration: none;
+}
+
+@media (pointer: coarse) {
+  .modo-scope,
+  .modo-scope a,
+  .modo-scope button { cursor: auto; }
+}
+
+.modo-scope .museo-headline {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1;
+}
+
+.modo-scope .museo-body {
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.modo-scope .museo-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 500;
+}
+
+.modo-scope .will-change-transform { will-change: transform; }
+.modo-scope .backface-hidden { backface-visibility: hidden; }
+.modo-scope .gpu-accelerate { transform: translateZ(0); }
+
+/* Curseur personnalisé */
+.custom-cursor {
+  position: fixed;
+  width: 12px;
+  height: 12px;
+  background: #D4AF37;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+  transition: transform 0.15s ease-out, width 0.2s ease, height 0.2s ease;
+  transform: translate(-50%, -50%);
+}
+.custom-cursor.hover {
+  width: 40px;
+  height: 40px;
+}
+@media (pointer: coarse) {
+  .custom-cursor { display: none; }
+}
+
+/* Marquee footer */
+@keyframes modo-marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+.modo-scope .animate-marquee {
+  animation: modo-marquee 30s linear infinite;
+}
+
+/* Accessibilité */
+.modo-scope a:focus-visible,
+.modo-scope button:focus-visible {
+  outline: 2px solid rgba(212, 175, 55, 0.6);
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .modo-scope *,
+  .modo-scope *::before,
+  .modo-scope *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .custom-cursor { display: none; }
+}
