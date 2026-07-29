@@ -25,6 +25,9 @@ export interface CollectionsConfig { label: string; headline: string; ctaText: s
 
 export interface TestimonialsConfig { quote: string; authorName: string; authorTitle: string; authorImage: string }
 
+export interface OfficeVideo { src: string; poster: string; label: string }
+export interface TeamOfficeConfig { label: string; headline: string; description: string; videos: OfficeVideo[] }
+
 export interface InfoCard { icon: string; title: string; content: string }
 export interface VisitConfig { label: string; headline: string; description: string; ctaText: string; ctaHref: string; infoCards: InfoCard[] }
 
@@ -129,6 +132,18 @@ export const collectionsConfig: CollectionsConfig = {
       description: 'Consultations vidéo à J+7, J+30, J+90 et au-delà. WhatsApp illimité et coordination avec votre médecin traitant après votre retour.',
       image: '/assets/hallan-premium.webp',
     },
+  ],
+};
+
+export const teamOfficeConfig: TeamOfficeConfig = {
+  label: 'EN COULISSES',
+  headline: 'Notre équipe, nos bureaux à Tunis',
+  description: 'Tanit Business Center, au cœur de Tunis : c’est ici que votre parcours prend vie. Une équipe dédiée, joignable 7j/7, qui organise chaque séjour médical dans les moindres détails — de votre premier message à votre suivi après le retour.',
+  videos: [
+    { src: '/assets/bureau-1.mp4', poster: '/assets/bureau-1-poster.webp', label: 'NOS BUREAUX' },
+    { src: '/assets/bureau-2.mp4', poster: '/assets/bureau-2-poster.webp', label: 'CONSULTATIONS' },
+    { src: '/assets/bureau-3.mp4', poster: '/assets/bureau-3-poster.webp', label: 'ACCOMPAGNEMENT' },
+    { src: '/assets/bureau-4.mp4', poster: '/assets/bureau-4-poster.webp', label: 'NOTRE ÉQUIPE' },
   ],
 };
 

@@ -9,6 +9,7 @@ import useCustomCursor from '../modo/hooks/useCustomCursor';
 
 import Hero from '../modo/sections/Hero';
 import About from '../modo/sections/About';
+import TeamOffice from '../modo/sections/TeamOffice';
 import Exhibitions from '../modo/sections/Exhibitions';
 import Offer from '../modo/sections/Offer';
 import Collections from '../modo/sections/Collections';
@@ -36,6 +37,7 @@ export default function ModoHome() {
     const sections = [
       { selector: '#modo-hero', color: '#0E1A2B' },
       { selector: '#about', color: '#050B14' },
+      { selector: '#team-office', color: '#050B14' },
       { selector: '#exhibitions', color: '#050B14' },
       { selector: '#offer', color: '#050B14' },
       { selector: '#collections', color: '#F7F3EA' },
@@ -72,6 +74,8 @@ export default function ModoHome() {
       </div>
 
       <About />
+
+      <TeamOffice />
 
       <Exhibitions />
 
