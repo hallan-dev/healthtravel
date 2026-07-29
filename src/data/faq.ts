@@ -15,7 +15,7 @@ export const faqThemes: FaqTheme[] = [
       { q: 'Quels pays représentent vos patientes ?', a: 'France, Belgique, Suisse, Canada, Allemagne, Italie, Royaume-Uni, Algérie, Maroc, Côte d\'Ivoire, Sénégal, et bien d\'autres.' },
       { q: 'Proposez-vous des garanties ?', a: 'Nous garantissons la transparence, l\'accompagnement illimité et la qualité médicale. En cas de complication nécessitant une révision, nous étudions chaque cas avec le chirurgien pour déterminer la prise en charge.' },
       { q: 'Puis-je annuler ou reporter mon intervention ?', a: 'Oui. Un report est possible sans frais jusqu\'à 14 jours avant la date. Un acompte est conservé pour toute annulation dans les 7 jours précédents.' },
-      { q: 'Comment se déroule la première prise de contact ?', a: 'Par formulaire en ligne, WhatsApp ou email. Nous vous répondons sous 24h avec une fourchette de prix, des informations sur l\'intervention et la proposition d\'une consultation vidéo.' },
+      { q: 'Comment se déroule la première prise de contact ?', a: 'Par formulaire en ligne, WhatsApp ou email. Nous vous répondons sous 24h avec des informations détaillées sur l\'intervention et la proposition d\'une consultation vidéo, avant l\'établissement de votre devis personnalisé.' },
       { q: 'Faites-vous de la chirurgie réparatrice ?', a: 'Oui, sur demande et après évaluation médicale. Nous collaborons avec des chirurgiens spécialisés en chirurgie réparatrice et reconstructrice.' },
       { q: 'Acceptez-vous les patientes transgenres ?', a: 'Oui, avec bienveillance et discrétion. Nous travaillons avec des chirurgiens expérimentés en chirurgie d\'affirmation de genre.' },
       { q: 'Puis-je opérer plusieurs membres de ma famille ?', a: 'Oui, nous organisons des séjours groupés avec tarifs préférentiels. Chaque membre a son propre chirurgien et son propre accompagnement.' }
@@ -38,7 +38,7 @@ export const faqThemes: FaqTheme[] = [
       { q: 'Le Mommy Makeover inclut-il tout ?', a: 'Oui. Abdominoplastie, liposuccion des flancs, et intervention sur les seins (augmentation, réduction ou lifting). Personnalisable selon vos besoins.' },
       { q: 'La chirurgie intime est-elle discrète ?', a: 'Absolument. Consultation et intervention dans un cadre totalement privé. Aucune information n\'est partagée. Accompagnement par une équipe féminine sur demande.' },
       { q: 'Le lifting du visage laisse-t-il des cicatrices visibles ?', a: 'Les incisions sont dissimulées dans les cheveux et derrière les oreilles. Invisibles après 3 mois.' },
-      { q: 'La blépharoplastie est-elle ambulatoire ?', a: 'Oui. Durée 1h, retour à l\'hôtel le jour même. Œdèmes légers pendant 5 à 7 jours.' },
+      { q: 'La blépharoplastie est-elle ambulatoire ?', a: 'Oui. Durée 1h, sortie le jour même en environnement adapté à votre récupération. Œdèmes légers pendant 5 à 7 jours.' },
       { q: 'Le lifting des bras enlève-t-il la peau en excès ?', a: 'Oui. L\'excès de peau est excisé et les tissus profonds remis en tension. Cicatrice dissimulée dans le pli interne du bras.' },
       { q: 'Le lipœdème peut-il être traité chirurgicalement ?', a: 'Oui, par liposuccion spécialisée (technique WAL ou tumescente). Soulagement significatif de la douleur et de la lourdeur.' },
       { q: 'La réduction mammaire est-elle remboursée ?', a: 'En Tunisie, non. Dans votre pays d\'origine, certaines mutuelles remboursent si le poids des seins cause des douleurs dorsales documentées.' },
@@ -50,35 +50,35 @@ export const faqThemes: FaqTheme[] = [
     theme: 'Séjour & Logistique',
     items: [
       { q: 'Comment réserver mon vol ?', a: 'Nous nous en chargeons. Nous vous proposons 2 à 3 options de vols selon vos préférences (horaires, compagnie, escale).' },
-      { q: 'Quel hôtel me sera attribué ?', a: 'Hôtel 4 étoiles minimum, situé à proximité de la clinique. Chambre privée avec salle de bain, climatisation, WiFi. Chambre double disponible pour l\'accompagnant.' },
+      { q: 'Où se déroule mon séjour postopératoire ?', a: 'Votre séjour médical est organisé dans un environnement adapté à votre intervention et à votre état de santé, afin d\'assurer surveillance, soins et accompagnement après l\'opération. La durée de prise en charge est déterminée après l\'étude de votre dossier médical et selon les recommandations du chirurgien et de l\'équipe médicale.' },
       { q: 'L\'accompagnatrice parle-t-elle français ?', a: 'Oui, toutes nos accompagnatrices parlent au minimum français et arabe. Certaines parlent également anglais et allemand.' },
       { q: 'Puis-je visiter la Tunisie pendant ma convalescence ?', a: 'Oui, selon votre état. Sidi Bou Saïd, Carthage, médina de Tunis. Le chirurgien valide chaque sortie.' },
       { q: 'Le transfert aéroport est-il inclus ?', a: 'Oui, dans tous nos packages. Chauffeur privé, véhicule climatisé, prise en charge à l\'arrivée et au départ.' },
       { q: 'Puis-je prolonger mon séjour pour du tourisme ?', a: 'Oui, sur demande et avec l\'accord médical. Nous organisons des excursions vers le Sahara, Djerba ou Sidi Bou Saïd.' },
-      { q: 'Y a-t-il un restaurant à l\'hôtel ?', a: 'Oui, et nous proposons également un service de livraison de repas adaptés à votre régime post-opératoire (riche en protéines, pauvre en sel).' },
+      { q: 'Comment sont gérés les repas pendant ma convalescence ?', a: 'Nous proposons des repas adaptés à votre régime post-opératoire (riche en protéines, pauvre en sel), organisés avec votre accompagnatrice.' },
       { q: 'Puis-je sortir seule pendant le séjour ?', a: 'Oui, mais nous recommandons de toujours informer votre accompagnatrice. La Tunisie est sûre mais une vigilance de base est recommandée.' },
-      { q: 'Le WiFi est-il disponible ?', a: 'Oui, dans l\'hôtel, la clinique et les véhicules. Notre équipe reste joignable par WhatsApp 24/7.' },
+      { q: 'Le WiFi est-il disponible ?', a: 'Oui, à la clinique, dans votre hébergement et les véhicules. Notre équipe reste joignable par WhatsApp 24/7.' },
       { q: 'Puis-je recevoir des visites à la clinique ?', a: 'Oui, dans les horaires de visite. Nous recommandons de limiter les visites les 2 premiers jours pour préserver votre repos.' },
       { q: 'Comment gérer mes médicaments pendant le vol retour ?', a: 'Nous vous fournissons une ordonnance internationale, un certificat médical et les médicaments nécessaires pour le voyage. Gardez-les en cabine.' },
       { q: 'Le chirurgien me donne-t-il un certificat médical ?', a: 'Oui, certificat d\'intervention, ordonnance, compte-rendu opératoire et protocole de suivi. Tout est traduit en français.' },
       { q: 'Puis-je voyager seule ?', a: 'Oui, de nombreuses patientes voyagent seules. Notre accompagnatrice reste à vos côtés en permanence. Cependant, un accompagnant est recommandé pour les interventions lourdes.' },
       { q: 'Quel adaptateur électrique faut-il ?', a: 'Prises type C et E (européennes). Aucun adaptateur nécessaire pour les ressortissants européens.' },
-      { q: 'Y a-t-il des pharmacies à proximité ?', a: 'Oui, plusieurs pharmacies ouvertes 24h/24 à proximité de nos hôtels et cliniques.' }
+      { q: 'Y a-t-il des pharmacies à proximité ?', a: 'Oui, plusieurs pharmacies ouvertes 24h/24 à proximité de nos cliniques et hébergements partenaires.' }
     ]
   },
   {
     theme: 'Prix & Paiement',
     items: [
       { q: 'Pourquoi les prix sont-ils moins chers en Tunisie ?', a: 'Le coût de la vie et des salaires sont plus bas, mais la qualité médicale est identique. Nos chirurgiens sont formés aux mêmes standards internationaux.' },
-      { q: 'Le devis est-il vraiment gratuit ?', a: 'Oui, totalement gratuit et sans engagement. Vous recevez une fourchette de prix sous 24h, puis un devis détaillé après la consultation vidéo.' },
+      { q: 'Le devis est-il vraiment gratuit ?', a: 'Oui, totalement gratuit et sans engagement. Vous recevez une première réponse sous 24h, puis un devis personnalisé après l\'étude de votre dossier médical et la consultation vidéo.' },
       { q: 'Quels modes de paiement acceptez-vous ?', a: 'Virement bancaire, carte bancaire via Stripe (sécurisé), espèces sur place. Paiement en plusieurs fois possible (30 % à la réservation, solde avant l\'intervention).' },
-      { q: 'Le prix inclut-il vraiment tout ?', a: 'Oui : chirurgien, anesthésie, hospitalisation, médicaments, pansements, transferts, hôtel, accompagnatrice. Analyses médicales préalables et vol non inclus.' },
+      { q: 'Le devis inclut-il vraiment tout ?', a: 'Oui : chirurgien, anesthésie, hospitalisation, médicaments, pansements, transferts, séjour médical postopératoire et accompagnatrice. Le détail exact figure dans votre devis personnalisé.' },
       { q: 'Y a-t-il des frais cachés ?', a: 'Non. Notre politique de transparence est absolue. Si des analyses supplémentaires sont nécessaires, nous vous en informons avant toute décision.' },
       { q: 'Puis-je payer en plusieurs fois ?', a: 'Oui. 30 % à la réservation, 40 % une semaine avant, 30 % sur place. Contactez-nous pour des solutions personnalisées.' },
       { q: 'Le prix change-t-il selon la saison ?', a: 'Non, nos tarifs sont fixes toute l\'année. Cependant, les vols peuvent être plus chers en haute saison (juillet-août).' },
       { q: 'Puis-je obtenir une facture pour ma mutuelle ?', a: 'Oui, nous fournissons une facture détaillée en français et en anglais. Certaines mutuelles remboursent partiellement les interventions médicalement justifiées.' },
       { q: 'Le prix du BBL inclut-il la liposuccion ?', a: 'Oui. Le BBL est un package : liposuccion des zones donneuses + purification de la graisse + injection dans les fesses.' },
-      { q: 'Quel est le prix moyen d\'une rhinoplastie en Tunisie ?', a: 'Entre 2 200 € et 3 500 € selon la complexité (première intervention vs révision, technique ouverte vs fermée).' }
+      { q: 'Quel est le tarif d\'une rhinoplastie en Tunisie ?', a: 'Le tarif est établi sur devis personnalisé, après étude de votre dossier et consultation avec le chirurgien. Il dépend de la complexité (première intervention ou révision, technique ouverte ou fermée).' }
     ]
   },
   {
@@ -141,7 +141,7 @@ export const faqThemes: FaqTheme[] = [
 export const faqHome = [
   { q: 'Quels sont les délais entre la demande de devis et l\'opération ?', a: 'En général, comptez 2 à 4 semaines. Ce délai permet d\'organiser la consultation vidéo avec le chirurgien, de recevoir vos analyses médicales et de réserver votre séjour complet. En cas d\'urgence, nous pouvons accélérer le processus à 7-10 jours.' },
   { q: 'Les chirurgiens sont-ils certifiés et expérimentés ?', a: 'Absolument. Tous nos chirurgiens sont diplômés de facultés de médecine reconnues (Tunisie, France, Belgique, Turquie), inscrits à l\'ordre des médecins tunisien et possèdent plus de 10 ans d\'expérience. Leurs fiches complètes sont disponibles sur le site.' },
-  { q: 'Quelle est la durée du séjour en Tunisie ?', a: 'Selon l\'intervention : 5 à 7 jours pour une rhinoplastie ou une blépharoplastie ; 7 à 10 jours pour une liposuccion, un BBL ou une augmentation mammaire ; jusqu\'à 12 jours pour un Mommy Makeover.' },
+  { q: 'Quelle est la durée du séjour en Tunisie ?', a: 'La durée de votre séjour médical est déterminée après l\'étude de votre dossier médical, selon l\'intervention réalisée, votre état de santé et les recommandations du chirurgien et de l\'équipe médicale. Elle est précisée dans votre devis personnalisé.' },
   { q: 'Le suivi post-opératoire est-il inclus et illimité ?', a: 'Oui, totalement. Consultations vidéo à J+7, J+30, J+90 et au-delà. Notre équipe répond à vos messages WhatsApp en moins de 2 heures. Nous coordonnons également avec votre médecin traitant.' },
   { q: 'Les prix sont-ils vraiment transparents ?', a: 'Oui. Chaque devis détaille exactement ce qui est inclus : honoraires du chirurgien, anesthésie, hospitalisation, médicaments, transferts et hébergement. Aucun frais caché.' },
   { q: 'Puis-je payer en plusieurs fois ?', a: 'Oui : acompte de 30 % à la réservation, puis le solde avant l\'intervention. Virements, carte via Stripe (sécurisé) ou espèces sur place.' },
