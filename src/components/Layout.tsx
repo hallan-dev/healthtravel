@@ -11,15 +11,18 @@ export function Layout() {
   const [loaded, setLoaded] = useState(() => sessionStorage.getItem('ht_loaded') === '1');
   useEffect(() => { window.scrollTo({ top: 0, behavior: 'instant' as ScrollBehavior }); }, [pathname]);
 
+  // L'accueil dynamique (template Modo) gère sa propre navigation, son footer et son scroll
+  const isModoHome = pathname === '/';
+
   return (
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
       {!loaded && <Preloader onComplete={() => { sessionStorage.setItem('ht_loaded', '1'); setLoaded(true); }} />}
-      <Header />
+      {!isModoHome && <Header />}
       <main style={{ flex: 1 }}>
         <Outlet />
       </main>
-      <Footer />
-      <ScrollToTop />
+      {!isModoHome && <Footer />}
+      {!isModoHome && <ScrollToTop />}
       <a
         href="https://wa.me/21655000260"
         target="_blank" rel="noreferrer"
