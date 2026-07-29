@@ -152,8 +152,8 @@ export default function Devis() {
                       <input className="input" required type="email" placeholder="Email *" value={data.email} onChange={e => setData({ ...data, email: e.target.value })} />
                     </div>
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 14 }}>
-                      <input className="input" placeholder="Téléphone / WhatsApp" value={data.tel} onChange={e => setForm({ ...data, tel: e.target.value })} />
-                      <input className="input" placeholder="Pays de résidence" value={data.pays} onChange={e => setForm({ ...data, pays: e.target.value })} />
+                      <input className="input" placeholder="Téléphone / WhatsApp" value={data.tel} onChange={e => setData({ ...data, tel: e.target.value })} />
+                      <input className="input" placeholder="Pays de résidence" value={data.pays} onChange={e => setData({ ...data, pays: e.target.value })} />
                     </div>
                     <div>
                       <label style={{ fontSize: 13, fontWeight: 500, display: 'block', marginBottom: 8 }}>Comment préférez-vous être contactée ?</label>
