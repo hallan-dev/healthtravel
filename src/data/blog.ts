@@ -7,6 +7,113 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: 'hallan-khenissi-fondatrice-portrait',
+    category: "L'agence",
+    title: 'Hallan Khenissi : qui est la femme derrière Health Travel ?',
+    excerpt: "De l'expérience personnelle à la création d'une agence premium : parcours, vision et exigences de celle qui suit chaque patiente du premier message au suivi après le retour.",
+    metaTitle: 'Hallan Khenissi, fondatrice de Health Travel : portrait',
+    metaDesc: "Portrait de Hallan Khenissi, fondatrice et directrice de Health Travel, agence de tourisme médical premium en Tunisie. Parcours, vision, exigences.",
+    date: '26 juillet 2026', readTime: '6 min', author: 'Équipe Health Travel',
+    intro: "Derrière chaque séjour médical organisé par Health Travel, il y a une femme : Hallan Khenissi. Fondatrice et directrice de l'agence, elle répond encore personnellement aux messages, valide chaque dossier médical et suit les patientes bien après leur retour. Portrait d'une entrepreneure qui a fait de la confiance son métier.",
+    blocks: [
+      { h2: "Un parcours né d'une expérience personnelle", p: ["Avant de fonder Health Travel, Hallan Khenissi a elle-même mesuré à quel point organiser une opération de chirurgie esthétique à l'étranger pouvait ressembler à un parcours du combattant : devis opaques, agences injoignables après le paiement, chirurgiens que l'on ne rencontre jamais avant le jour J, suivi inexistant une fois rentrée chez soi.", "C'est de ce constat qu'est née l'agence : prouver qu'une autre manière de faire était possible — plus humaine, plus transparente et médicalement plus rigoureuse."] },
+      { h2: 'Sa règle d\u2019or : le médical avant le marketing', p: ["Chez Health Travel, aucune intervention n'est proposée avant l'étude du dossier médical. C'est la règle n°1, et elle n'a jamais changé."], list: ["Chaque chirurgien partenaire est rencontré, vérifié et suivi dans la durée — diplômes, certifications, résultats réels.", "Chaque clinique est visitée en personne avant la moindre patiente envoyée.", "Les devis sont personnalisés, détaillés poste par poste, sans frais cachés.", "Un dossier médical à risque ? Hallan préfère refuser une patiente plutôt que compromettre sa sécurité."] },
+      { h2: "Un rôle de chef d'orchestre", p: ["Entre les patientes, les chirurgiens, les cliniques et les accompagnatrices, Hallan coordonne tout : consultations vidéo, organisation du voyage, séjour médical postopératoire adapté à chaque intervention, suivi à distance après le retour. Son téléphone ne s'éteint jamais vraiment — et les patientes le savent."] },
+      { h2: 'Sa philosophie, en trois phrases', list: ["« Vous ne serez jamais seule » — la promesse faite à chaque patiente, du premier message au dernier suivi.", "« Nous ne vendons pas des opérations. Nous construisons une relation de confiance. »", "« La chirurgie esthétique n'est pas un caprice : c'est un choix profond, qui mérite un accompagnement à la hauteur de son importance. »"] }
+    ],
+    conclusion: "Celles qui ont voyagé avec Health Travel le résument souvent ainsi : avec Hallan, on ne se sent jamais « cliente » — on se sent accompagnée."
+  },
+  {
+    slug: 'temoignage-sophie-bbl-tunis',
+    category: 'Témoignages',
+    title: 'Le parcours de Sophie : son BBL à Tunis raconté de A à Z',
+    excerpt: "Premier message un dimanche soir, consultation vidéo, arrivée à Tunis, réveil en clinique : Sophie raconte chaque étape de son parcours avec Health Travel.",
+    metaTitle: 'Témoignage BBL en Tunisie : le parcours de Sophie | Health Travel',
+    metaDesc: "Sophie raconte son BBL en Tunisie avec Health Travel : consultation vidéo, accueil, séjour médical postopératoire et suivi après le retour.",
+    date: '22 juillet 2026', readTime: '7 min', author: 'Équipe Health Travel',
+    intro: "Sophie, 32 ans, venue de Lyon, avait coché toutes les cases de la patiente anxieuse : peur de l'inconnu, peur du résultat, peur d'être seule là-bas. Un an après son BBL à Tunis, elle a accepté de raconter son parcours, étape par étape. Un récit recueilli par notre équipe.",
+    blocks: [
+      { h2: 'Le déclic : un message un dimanche soir', p: ["« J'ai envoyé mon premier message sur WhatsApp un dimanche à 22h, sans trop y croire. Hallan m'a répondu dans la soirée. Pas avec un message automatique : avec des questions précises sur ma morphologie, mes attentes, mon historique médical. J'ai tout de suite senti que ce n'était pas une agence comme les autres. »"] },
+      { h2: 'La consultation vidéo qui a tout changé', p: ["Quelques jours plus tard, Sophie rencontre en visio le chirurgien qui l'opérera. « Il a analysé mes photos, m'a expliqué exactement ce qui était possible pour MA morphologie — et ce qui ne l'était pas. Il m'a même déconseillé un volume trop important que j'avais vu sur Instagram. Cette honnêteté m'a convaincue. »", "Le devis arrive ensuite : personnalisé, détaillé, sans surprise. Sophie prend le temps de réfléchir. « Personne ne m'a mise sous pression. C'est moi qui ai rappelé. »"] },
+      { h2: "L'arrivée à Tunis : prise en main immédiate", p: ["À la sortie de l'aéroport, une accompagnatrice francophone l'attend. « Bilan pré-opératoire à la clinique, rencontre en chair et en os avec le chirurgien et l'anesthésiste : toutes mes dernières questions ont trouvé une réponse. Je me sentais attendue, pas traitée comme un numéro. »"] },
+      { h2: "L'intervention et le séjour médical postopératoire", p: ["L'opération se déroule en clinique, dans un bloc moderne. « À mon réveil, l'infirmière était à côté, et Hallan est passée me voir le jour même. »", "Après la clinique, la convalescence se poursuit dans un cadre calme, adapté à sa récupération, avec le protocole post-BBL expliqué au millimètre : position pour dormir, coussin spécial, gaine de contention, consultations de contrôle avant le retour. « Chaque jour, quelqu'un de l'équipe prenait de mes nouvelles. »"] },
+      { h2: "Le retour, et un suivi qui ne s'arrête pas à l'aéroport", p: ["De retour à Lyon, les consultations vidéo de contrôle s'enchaînent selon le calendrier prévu, et WhatsApp reste ouvert en permanence. « J'ai envoyé une photo un soir parce qu'un œdème m'inquiétait. Réponse en vingt minutes, et le chirurgien m'a rassurée dès le lendemain en visio. »"] },
+      { h2: 'Un an après, son bilan', p: ["« Le résultat est naturel, harmonieux — exactement ce que le chirurgien m'avait projeté en consultation. Mais si je devais retenir une chose, ce n'est pas seulement le résultat : c'est de ne jamais m'être sentie seule, à aucun moment. »"] }
+    ],
+    conclusion: "Envie d'écrire votre propre histoire ? Écrivez-nous sur WhatsApp ou demandez votre devis personnalisé : réponse sous 24h, sans engagement."
+  },
+  {
+    slug: 'temoignage-claire-rhinoplastie-tunis',
+    category: 'Témoignages',
+    title: 'Claire, 34 ans : sa rhinoplastie à Tunis, un an après',
+    excerpt: "Un complexe d'adolescence, des mois d'hésitation, puis une consultation vidéo qui change tout : le récit complet de Claire, un an après sa rhinoplastie.",
+    metaTitle: 'Témoignage rhinoplastie Tunisie : Claire, un an après | Health Travel',
+    metaDesc: "Claire témoigne un an après sa rhinoplastie en Tunisie organisée par Health Travel : doutes, chirurgien, jour J, résultat final.",
+    date: '18 juillet 2026', readTime: '6 min', author: 'Équipe Health Travel',
+    intro: "Claire, 34 ans, de Bruxelles, pensait à la bosse sur son nez « depuis le collège ». Un an après sa rhinoplastie à Tunis, elle revient sur son parcours : les doutes, le choix du chirurgien, le jour J — et ce que cette opération a changé au-delà du miroir.",
+    blocks: [
+      { h2: 'Un complexe depuis l\u2019adolescence', p: ["« Sur les photos de profil, je détournais le visage. J'ai repoussé la décision pendant quinze ans, d'abord par peur du bistouri, ensuite par peur de mal choisir. Ce qui me bloquait, ce n'était pas l'opération : c'était de confier mon visage à quelqu'un. »"] },
+      { h2: 'Pourquoi elle a choisi Health Travel', p: ["Après des semaines de recherches, Claire retient trois agences et les met à l'épreuve avec les mêmes questions. « Health Travel est la seule à m'avoir proposé une consultation vidéo directe avec le chirurgien, pas avec un commercial. Et la seule à m'avoir demandé un bilan médical complet AVANT de me parler d'organisation. »"] },
+      { h2: 'La rencontre avec le chirurgien', p: ["En visio, le chirurgien analyse sa structure nasale et lui montre des cas comparables. « Il m'a dit une phrase que je n'oublierai pas : “Je ne vais pas vous faire un nouveau nez, je vais révéler le vôtre.” C'est exactement ce que je voulais entendre. »"] },
+      { h2: 'Le jour J à Tunis', p: ["Accueil à l'aéroport, bilan complet à la clinique, dernier échange avec le chirurgien et l'anesthésiste. « Je suis entrée au bloc en serrant la main de mon accompagnatrice. À mon réveil, elle était là. Hallan aussi, le soir même. » Les jours suivants sont rythmés par les soins en clinique, les contrôles, puis une convalescence organisée et encadrée jusqu'au feu vert médical pour le vol retour."] },
+      { h2: 'Un an après', p: ["« L'œdème a mis des mois à s'effacer complètement — on me l'avait dit, et il faut effectivement être patiente. Mais aujourd'hui, mon nez est celui que j'aurais dû avoir. Et surtout : je ne détourne plus la tête sur les photos. »"] }
+    ],
+    conclusion: "La rhinoplastie est l'intervention la plus technique de la chirurgie du visage. Une consultation vidéo avec un chirurgien spécialisé est la première étape — gratuite et sans engagement."
+  },
+  {
+    slug: 'temoignage-nadia-abdominoplastie',
+    category: 'Témoignages',
+    title: 'Nadia : retrouver son ventre — et sa confiance — après deux grossesses',
+    excerpt: "Après deux césariennes, Nadia ne reconnaissait plus son corps. Récit de son abdominoplastie à Tunis, entre organisation familiale et renaissance.",
+    metaTitle: 'Témoignage abdominoplastie Tunisie après grossesse | Health Travel',
+    metaDesc: "Nadia témoigne après son abdominoplastie en Tunisie avec Health Travel : diastasis, organisation, prise en charge en clinique et suivi au retour.",
+    date: '14 juillet 2026', readTime: '6 min', author: 'Équipe Health Travel',
+    intro: "Deux grossesses, deux césariennes, et un ventre « qui ne revenait pas » malgré le sport et les régimes. Nadia, 38 ans, de Lille, souffrait d'un diastasis des grands droits — un écartement des muscles abdominaux que seule la chirurgie peut réparer. Elle raconte.",
+    blocks: [
+      { h2: '« Ce n\u2019était plus une question de silhouette »', p: ["« Au-delà de l'esthétique, j'avais mal au dos, je me sentais affaiblie. Mon médecin a confirmé le diastasis. Quand j'ai compris qu'aucune séance d'abdominaux ne réparerait mes muscles, j'ai commencé à me renseigner sérieusement. »"] },
+      { h2: 'Organiser le départ avec deux enfants', p: ["La vraie appréhension de Nadia n'était pas médicale : c'était logistique. « Partir sans mes enfants, c'était inimaginable pour moi. L'équipe m'a aidée à planifier un séjour médical adapté à mon intervention et à mon état de santé — ni trop court, ni inutilement long. Mon mari a pris des congés, ma sœur s'est déplacée. Tout était calé. »"] },
+      { h2: 'La prise en charge sur place', p: ["« À la clinique, tout était rodé : bilan, marquage avec le chirurgien, anesthésie. À mon réveil, je savais déjà que c'était transformant. » Les premiers jours sont consacrés aux soins, à la contention, à la remise sur pied en douceur — avec l'accompagnatrice francophone toujours joignable et les visites de contrôle du chirurgien."] },
+      { h2: 'Le suivi qui ne s\u2019arrête pas à l\u2019aéroport', p: ["« C'est ce qui m'a le plus marquée. Des mois après, je recevais encore des nouvelles, mes consultations vidéo de contrôle étaient honorées, et mes questions trouvaient toujours une réponse. Je n'ai jamais eu l'impression d'être un dossier clos. »"] },
+      { h2: 'Aujourd\u2019hui', p: ["« J'ai retrouvé un ventre plat, un dos qui ne me fait plus souffrir, et une confiance que je n'espérais plus. Mes enfants disent que je souris davantage. Ils ont raison. »"] }
+    ],
+    conclusion: "L'abdominoplastie est une intervention de reconstruction autant qu'esthétique. Notre équipe vous aide à évaluer votre situation en consultation vidéo — gratuitement et sans engagement."
+  },
+  {
+    slug: 'pourquoi-jai-cree-health-travel',
+    category: "L'agence",
+    title: "« Pourquoi j'ai créé Health Travel » — la lettre de notre fondatrice",
+    excerpt: "Hallan Khenissi prend la plume : ce qu'elle a vu de pire dans l'industrie, et les trois engagements sur lesquels elle a bâti son agence.",
+    metaTitle: "Pourquoi j'ai créé Health Travel — lettre de la fondatrice",
+    metaDesc: "Hallan Khenissi, fondatrice de Health Travel, explique pourquoi elle a créé son agence de tourisme médical en Tunisie : confiance, transparence, suivi.",
+    date: '9 juillet 2026', readTime: '5 min', author: 'Hallan Khenissi',
+    intro: "On me demande souvent pourquoi j'ai créé une agence de tourisme médical. La réponse tient en quelques rencontres — et en trois engagements que je n'ai jamais trahis. Je l'écris aujourd'hui, une fois, pour toutes celles qui hésitent encore.",
+    blocks: [
+      { h2: "J'ai vu trop de patientes abandonnées", p: ["Avant Health Travel, j'ai croisé des dizaines de femmes opérées loin de chez elles, dans des conditions dignes — mais laissées seules. Seules face aux devis qui gonflent au dernier moment. Seules face aux agences qui ne répondent plus une fois le virement effectué. Seules face à leurs questions, le jour où un œdème inquiète, à des milliers de kilomètres du bloc opératoire.", "Je me suis promis une chose : aucune femme accompagnée par mon équipe ne vivra jamais cela."] },
+      { h2: 'Trois engagements non négociables', list: ["La transparence : des devis personnalisés, détaillés, sans frais cachés — et le droit de prendre votre temps.", "La sécurité : des chirurgiens que je connais personnellement, des cliniques que j'ai visitées, un dossier médical étudié avant toute proposition.", "La présence : une équipe joignable 7j/7, avant, pendant et surtout APRÈS votre séjour. Le suivi ne s'arrête pas à l'aéroport."] },
+      { h2: "Ce que je regarde avant d'accepter un dossier", p: ["On croit souvent qu'une agence dit oui à tout. La nôtre dit parfois non. Non quand l'intervention demandée n'est pas indiquée médicalement. Non quand les attentes sont irréalistes. Non quand le timing médical n'est pas le bon. Ces « non » sont peut-être ce dont je suis le plus fière : ils prouvent que votre santé passe avant tout le reste."] },
+      { h2: 'Ma porte reste ouverte', p: ["Si vous hésitez, si vous avez peur, si vous avez été déçue ailleurs : écrivez-moi. Je lis encore chaque message. Et si votre projet se concrétise, je serai là — du premier échange à votre dernier contrôle, et bien au-delà."] }
+    ],
+    conclusion: "Health Travel n\u2019est pas une agence de plus. C\u2019est une promesse : vous ne serez jamais seule. — Hallan Khenissi"
+  },
+  {
+    slug: 'une-journee-equipe-health-travel-tunis',
+    category: "L'agence",
+    title: "Coulisses : une journée avec l'équipe Health Travel à Tunis",
+    excerpt: "Revue des dossiers à 8h30, consultations vidéo, coordination avec les cliniques, suivi des patientes rentrées : immersion au Tanit Business Center.",
+    metaTitle: 'Coulisses de Health Travel : une journée avec notre équipe à Tunis',
+    metaDesc: "Immersion dans les bureaux de Health Travel à Tunis : suivi des patientes, consultations vidéo avec les chirurgiens, coordination avec les cliniques partenaires.",
+    date: '3 juillet 2026', readTime: '5 min', author: 'Équipe Health Travel',
+    intro: "Tanit Business Center, au cœur de Tunis. C'est ici, dans ces bureaux, que chaque parcours patient commence — bien avant la clinique. Après vous avoir montré nos coulisses en vidéo sur la page d'accueil, voici à quoi ressemble une journée type de l'équipe.",
+    blocks: [
+      { h2: '8h30 — la revue des dossiers', p: ["La journée commence par le point d'équipe : nouvelles demandes de devis reçues dans la nuit, dossiers médicaux à compléter, patientes en cours de séjour à Tunis. Chaque dossier est passé en revue, chaque situation a un nom et un visage."] },
+      { h2: '11h00 — consultations vidéo avec les chirurgiens', p: ["C'est le cœur du métier : les échanges en visio entre nos futures patientes et les chirurgiens qui les opéreront. Analyse des photos, réponses aux questions, parfois un avis médical qui recommande d'attendre — ou de renoncer. Notre équipe prépare chaque rendez-vous et reste disponible pendant l'échange."] },
+      { h2: '14h00 — coordination avec les cliniques partenaires', p: ["Plannings de bloc, disponibilités des chirurgiens, organisation des séjours médicaux postopératoires adaptés à chaque intervention : l'après-midi est consacré à la logistique médicale. Un travail invisible — et c'est précisément ce qui rend un séjour fluide pour nos patientes."] },
+      { h2: '17h00 — le suivi des patientes rentrées chez elles', p: ["Photos de cicatrisation reçues sur WhatsApp, consultations vidéo de contrôle à J+7, J+30, J+90, questions de dernière minute : la fin de journée appartient à celles qui sont déjà rentrées. Chez Health Travel, un dossier n'est jamais « clos »."] },
+      { h2: '7j/7, même le dimanche', p: ["Une angoisse un dimanche soir ? Une question la veille d'un vol ? L'équipe se relaie pour répondre tous les jours, en français, anglais, arabe, allemand ou italien. Parce qu'un séjour médical ne connaît pas les horaires de bureau."] }
+    ],
+    conclusion: "Vous voulez mettre un visage sur l'équipe qui vous accompagnera ? Regardez nos vidéos de coulisses sur la page d'accueil — ou écrivez-nous directement sur WhatsApp."
+  },
+  {
     slug: 'liposuccion-vs-cryolipolyse',
     category: 'Silhouette',
     title: 'Liposuccion vs cryolipolyse : que choisir en 2026 ?',
@@ -128,7 +235,7 @@ export const articles: Article[] = [
   }
 ];
 
-export const blogCategories = ['Tous', 'Visage', 'Seins', 'Silhouette', 'Nutrition', 'Voyage', 'Conseils'];
+export const blogCategories = ['Tous', "L'agence", 'Témoignages', 'Visage', 'Seins', 'Silhouette', 'Nutrition', 'Voyage', 'Conseils'];
 
 export function getArticle(slug: string) {
   return articles.find(a => a.slug === slug);
