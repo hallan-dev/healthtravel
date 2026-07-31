@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Link } from 'react-router';
@@ -16,6 +16,16 @@ const Hero = () => {
   const badgeRef = useRef<HTMLDivElement>(null);
   const bottomRef = useRef<HTMLDivElement>(null);
   const triggersRef = useRef<ScrollTrigger[]>([]);
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Sur téléphone : version allégée de la vidéo (720p, sans piste audio)
+  useEffect(() => {
+    const mq = window.matchMedia('(max-width: 767px)');
+    setIsMobile(mq.matches);
+    const onChange = (e: MediaQueryListEvent) => setIsMobile(e.matches);
+    mq.addEventListener('change', onChange);
+    return () => mq.removeEventListener('change', onChange);
+  }, []);
 
   if (!heroConfig.brandLeft && !heroConfig.brandRight) return null;
 
@@ -80,7 +90,7 @@ const Hero = () => {
     >
       {/* Vidéo d'ambiance — coulisses des bureaux Health Travel */}
       <AutoplayVideo
-        src="/assets/hero-office.mp4"
+        src={isMobile ? '/assets/hero-office-mobile.mp4' : '/assets/hero-office.mp4'}
         className="absolute inset-0 w-full h-full object-cover opacity-40"
         poster="/assets/hero-office-poster.webp"
       />
@@ -155,13 +165,29 @@ const Hero = () => {
           {heroConfig.email && (
             <a
               href={`mailto:${heroConfig.email}`}
-              className="museo-label text-white/40 hover:text-white transition-colors text-[10px] mt-4"
+              className="hidden md:block museo-label text-white/40 hover:text-white transition-colors text-[10px] mt-4"
               data-cursor="hover"
             >
               {heroConfig.email}
             </a>
           )}
         </div>
+      </div>
+
+      {/* CTA mobile — visibles uniquement sur téléphone */}
+      <div className="absolute bottom-20 left-0 w-full z-20 flex md:hidden items-center justify-center gap-3 px-4">
+        <Link
+          to="/devis"
+          className="museo-label whitespace-nowrap text-[#0E1A2B] bg-[#D4AF37] px-4 py-3 text-[10px] tracking-[0.15em] hover:bg-[#E8C766] transition-colors"
+        >
+          Devis gratuit
+        </Link>
+        <Link
+          to="/interventions"
+          className="museo-label whitespace-nowrap text-white border border-white/40 px-4 py-3 text-[10px] tracking-[0.15em] hover:bg-white/10 transition-colors"
+        >
+          Nos interventions
+        </Link>
       </div>
 
       {/* Bottom bar */}

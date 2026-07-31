@@ -86,3 +86,8 @@
   }
   .custom-cursor { display: none; }
 }
+
+/* Carrousel vidéos mobile : barre de scroll masquée (WebKit iOS/Android) */
+.office-carousel::-webkit-scrollbar {
+  display: none;
+}

@@ -1,14 +1,18 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 /**
- * Vidéo en lecture automatique, robuste sur mobile.
+ * Vidéo en lecture automatique, robuste et légère sur mobile.
  *
- * Pourquoi ce composant existe :
  * 1. React n'applique pas toujours l'attribut `muted` comme propriété DOM.
  *    Sur iOS/Safari et Chrome Android, une vidéo non réellement muette
  *    ne peut PAS démarrer en autoplay → on force el.muted = true via ref.
  * 2. En mode économie d'énergie (iOS Low Power Mode), l'autoplay est bloqué
  *    même en muet → on réessaie play() au premier toucher/clic de l'utilisateur.
+ * 3. Chargement paresseux : la source vidéo n'est injectée que lorsque
+ *    l'élément approche de l'écran. Une vidéo masquée (display:none, ex.
+ *    variante desktop d'une section) n'est jamais téléchargée.
+ * 4. La lecture est mise en pause dès que la vidéo sort de l'écran :
+ *    économie de données mobiles et de batterie.
  */
 const pendingVideos = new Set<HTMLVideoElement>();
 let globalListenerInstalled = false;
@@ -44,20 +48,25 @@ interface AutoplayVideoProps extends React.VideoHTMLAttributes<HTMLVideoElement>
 
 export const AutoplayVideo = ({ src, ...props }: AutoplayVideoProps) => {
   const videoRef = useRef<HTMLVideoElement>(null);
+  const [shouldLoad, setShouldLoad] = useState(false);
 
   useEffect(() => {
     installGlobalResume();
     const video = videoRef.current;
     if (!video) return;
-    tryPlay(video);
-    // Certains navigateurs déclenchent l'autoplay uniquement quand la vidéo est visible
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          if (entry.isIntersecting && video.paused) tryPlay(video);
+          if (entry.isIntersecting) {
+            setShouldLoad(true); // injecte la source → déclenche le téléchargement
+            if (video.paused) tryPlay(video);
+          } else if (!video.paused) {
+            video.pause();
+          }
         });
       },
-      { threshold: 0.15 },
+      // Marge de 200px : la vidéo commence à charger juste avant d'entrer à l'écran
+      { threshold: 0.15, rootMargin: '200px' },
     );
     observer.observe(video);
     return () => {
@@ -66,9 +75,15 @@ export const AutoplayVideo = ({ src, ...props }: AutoplayVideoProps) => {
     };
   }, []);
 
+  // Dès que la source est injectée et que la vidéo est visible, on lance la lecture
+  useEffect(() => {
+    if (shouldLoad && videoRef.current) tryPlay(videoRef.current);
+  }, [shouldLoad]);
+
   return (
     <video
       ref={videoRef}
+      src={shouldLoad ? src : undefined}
       autoPlay
       muted
       loop
@@ -76,9 +91,7 @@ export const AutoplayVideo = ({ src, ...props }: AutoplayVideoProps) => {
       disablePictureInPicture
       preload="auto"
       {...props}
-    >
-      <source src={src} type="video/mp4" />
-    </video>
+    />
   );
 };
 
