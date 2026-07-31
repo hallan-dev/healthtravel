@@ -3,6 +3,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Link } from 'react-router';
 import { heroConfig } from '../config';
+import AutoplayVideo from '../../components/AutoplayVideo';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -78,17 +79,11 @@ const Hero = () => {
       className="relative h-screen w-full overflow-hidden bg-[#0E1A2B]"
     >
       {/* Vidéo d'ambiance — coulisses des bureaux Health Travel */}
-      <video
+      <AutoplayVideo
+        src="/assets/hero-office.mp4"
         className="absolute inset-0 w-full h-full object-cover opacity-40"
-        autoPlay
-        muted
-        loop
-        playsInline
-        preload="metadata"
         poster="/assets/hero-office-poster.webp"
-      >
-        <source src="/assets/hero-office.mp4" type="video/mp4" />
-      </video>
+      />
       <div className="absolute inset-0 bg-gradient-to-b from-[#0E1A2B]/70 via-[#0E1A2B]/40 to-[#0E1A2B]" />
 
       {/* Navigation */}

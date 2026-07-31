@@ -7,6 +7,7 @@ import {
 } from 'lucide-react';
 import { Reveal } from '../components/Reveal';
 import { Seo } from '../components/Seo';
+import AutoplayVideo from '../components/AutoplayVideo';
 import { FaqAccordion } from '../components/Faq';
 import { YoutubeLite } from '../components/YoutubeLite';
 import { CountUp } from '../components/CountUp';
@@ -48,9 +49,7 @@ export default function Home() {
 
       {/* ===== HERO ===== */}
       <section style={{ position: 'relative', minHeight: '92vh', display: 'flex', alignItems: 'flex-end', overflow: 'hidden', background: 'var(--ht-noir)' }}>
-        <video className="hero-video" autoPlay muted loop playsInline poster="/assets/hero-poster.webp">
-          <source src="/assets/hero.mp4" type="video/mp4" />
-        </video>
+        <AutoplayVideo src="/assets/hero.mp4" className="hero-video" poster="/assets/hero-poster.webp" />
         <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(11,31,58,.32) 0%, rgba(11,31,58,.12) 40%, rgba(11,31,58,.85) 100%)' }} />
         <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(115deg, rgba(37,99,235,.2) 0%, transparent 45%, rgba(212,175,55,.14) 100%)', mixBlendMode: 'overlay' }} />
         <div className="orb orb-aqua" style={{ width: 420, height: 420, bottom: -140, right: -100 }} />
@@ -320,7 +319,7 @@ export default function Home() {
                         <img src={interventionImgs[slug]} alt={iv.name + ' en Tunisie'} loading="lazy"
                           style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform .5s' }}
                           onMouseEnter={e => (e.currentTarget.style.transform = 'scale(1.05)')}
-                          onMouseLeave={e => (e.currentTarget.style.transform = 'scale(1)')} />
+                          onMouseLeave={e => (e.currentTarget.style.transform = 'scale(1)'} />
                       </div>
                       <div style={{ padding: '20px 22px 24px', flex: 1, display: 'flex', flexDirection: 'column' }}>
                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>

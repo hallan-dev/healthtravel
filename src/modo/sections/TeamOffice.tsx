@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { teamOfficeConfig } from '../config';
+import AutoplayVideo from '../../components/AutoplayVideo';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -78,17 +79,11 @@ const TeamOffice = () => {
             key={video.src}
             className="office-card relative overflow-hidden rounded-2xl border border-white/10 will-change-transform"
           >
-            <video
+            <AutoplayVideo
+              src={video.src}
               className="w-full aspect-[9/16] object-cover"
-              autoPlay
-              muted
-              loop
-              playsInline
-              preload="metadata"
               poster={video.poster}
-            >
-              <source src={video.src} type="video/mp4" />
-            </video>
+            />
             <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/70 to-transparent pointer-events-none" />
             <span className="absolute bottom-3 left-3 museo-label text-white/80 text-[10px] tracking-[0.2em]">
               {video.label}
