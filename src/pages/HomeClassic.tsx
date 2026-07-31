@@ -319,7 +319,7 @@ export default function Home() {
                         <img src={interventionImgs[slug]} alt={iv.name + ' en Tunisie'} loading="lazy"
                           style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform .5s' }}
                           onMouseEnter={e => (e.currentTarget.style.transform = 'scale(1.05)')}
-                          onMouseLeave={e => (e.currentTarget.style.transform = 'scale(1)'} />
+                          onMouseLeave={e => (e.currentTarget.style.transform = 'scale(1)')} />
                       </div>
                       <div style={{ padding: '20px 22px 24px', flex: 1, display: 'flex', flexDirection: 'column' }}>
                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
