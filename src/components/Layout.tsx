@@ -5,6 +5,7 @@ import { Header } from './Header';
 import { Footer } from './Footer';
 import { Preloader } from './Preloader';
 import { ScrollToTop } from './ScrollToTop';
+import { CookieBanner } from './CookieBanner';
 
 export function Layout() {
   const { pathname } = useLocation();
@@ -38,6 +39,7 @@ export function Layout() {
       >
         <MessageCircle size={26} />
       </a>
+      <CookieBanner />
     </div>
   );
 }

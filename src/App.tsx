@@ -11,6 +11,7 @@ import Faq from './pages/Faq'
 import Contact from './pages/Contact'
 import Devis from './pages/Devis'
 import RendezVous from './pages/RendezVous'
+import Legal from './pages/Legal'
 
 export default function App() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/devis" element={<Devis />} />
         <Route path="/rendez-vous" element={<RendezVous />} />
+        <Route path="/legal/:slug" element={<Legal />} />
         <Route path="*" element={<Home />} />
       </Route>
     </Routes>
